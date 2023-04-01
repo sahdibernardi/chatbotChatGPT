@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import '@chatscope/chat-ui-kit-react-styles/dist/default/styles.min.css'
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator   } from '@chatscope/chat-ui-kit-react'
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
      <MainContainer>
       <ChatContainer>
         <MessageList>
-          
+          <div> Olá mundo </div>
         </MessageList>
       </ChatContainer>
      </MainContainer>
